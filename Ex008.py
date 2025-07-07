@@ -1,0 +1,11 @@
+#Escreva um programa que leia um valor em metros e o exiba convertido em centímetros e milímetros
+m = float(input('Digite o metro desejado: '))
+print('\033[36m-=-\033[m'*9)
+print('\033[34mO metro {} convertido é:\033[m '.format(m))
+print('\033[36m-=-\033[m'*9)
+print('\033[35mEm centimetros é {:.0f}Cm! '.format(m *100))
+print('Em milímetros é {:.0f}Mm! '.format(m *1000))
+print('Em quilômetro  é {:.0f}Km! '.format(m /1000))
+print('Em hectometro é {:.0f}Hm! '.format(m /100))
+print('Em decametros é {:.0f}Dam! '.format(m /10))
+print('Em decimetros é {:.0f}Dm! \033[m'.format(m *10))

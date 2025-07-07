@@ -1,0 +1,11 @@
+#Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possíveis sobre ele
+a = input('Digite algo: ')
+print('O tipo primitivo desse valor é?', '\033[33m',type(a),'\033[m')
+print('Só tem espaços? {}{}{}'.format('\033[33m', a.isspace(), '\033[m'))
+print('É um número? {}{}{}'.format('\033[33m',a.isnumeric(),'\033[m'))
+print('É alfabético? {}{}{}'.format('\033[33m', a.isalpha(),'\033[m'))
+print('É alfanúmerico? {}{}{}'.format('\033[33m',a.isalnum(),'\033[m'))
+print('É maiúsculas? {}{}{}'.format('\033[33m',a.isupper(),'\033[m'))
+print('É minúsculas? {}{}{}'.format('\033[33m',a.islower(),'\033[m'))
+print('É capitalizadas? {}{}{}'.format('\033[33m',a.istitle(),'\033[m'))
+print('É um decimal?{}{}{}'.format('\033[33m',a.isdecimal(),'\033[m'))
